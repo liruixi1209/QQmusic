@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+#content{
+	width:1356px;
+	height:622px;
+	background:url(../img/Mymusic_unload.jpg);
+	
+	background-size:100%;
+	color:#FFF;
+	}
+
+.section_inner{
+	width:1200px;
+	height:208px;
+    padding-top:200px;
+	padding-left:88px;
+	
+	text-algin:center;
+	
+}
+.section_inner_sp1{
+    float:left;
+	margin-left:220px;
+	font-size:60px !important;
+	
+}
+.section_inner_sp2{
+	 float:left;
+	 font-size:25px;
+	 margin-left:400px;
+	 margin-top:30px;
+}
+.section_inner_load{
+	float:left;
+	width:128px;
+	height:48px;
+	border-radius:2px;
+	background:#31c27c;
+	font-size: 20px;
+	text-align: center;
+	line-height: 49px;
+	margin-left:520px;
+	margin-top:36px;
+}

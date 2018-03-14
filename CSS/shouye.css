@@ -1,0 +1,738 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+  *{
+	  margin:0px;
+	  padding:0px;   
+   }
+   .mod-index-new {
+	  height: 734px;
+	  background:#000 url(../QQmusic/background-new.jpg) 50% 0 repeat-x;
+	  z-index:1;
+   }
+   .mod-index{
+	  position:relative; 
+   }
+   .setion-inner{
+	  max-width: 1200px;
+	  margin: 0 auto;
+	  position: relative; 
+	  z-index: 2;
+      overflow: hidden;
+   }
+   .index-hd{
+	  padding-top: 80px;
+      margin-bottom: 43px; 
+	  position: relative;
+	  width: 490px;
+	  height: 48px;
+	  padding-top: 80px;
+	  margin: 0 auto 50px;
+   }
+   .index-tit{
+	  font-weight: 400;
+      text-align: center; 
+	  font-size:40px;
+	  font-style:normal;
+	  color:#FFF;
+   }
+   h2{
+	  display: block;
+	  font-size: 1.5em;
+	  -webkit-margin-before: 0.83em;
+	  -webkit-margin-after: 0.83em;
+	  -webkit-margin-start: 0px;
+	  -webkit-margin-end: 0px;
+	  font-weight: bold;
+   }
+
+   .mod-index-tab{
+	  height: 50px;
+	  text-align: center;
+	  font-size: 0; 
+   }
+   .index-tab-item-current{
+	  color: #fff !important;
+	  opacity: 1 !important;
+	  filter: none;
+   }
+   .index-tab-item{
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 0 35px;
+	  color:#999;
+	  opacity: .5; 
+   }
+   .index-tab-item:hover{
+	   color:#fff;
+	   opacity:1;
+   }
+   a{
+	  text-decoration:none; 
+   }
+   .index-tab-all{
+	  font-size: 15px;
+      color: #fff; 
+	  position: absolute;
+      right: 0;
+      top: initial;
+   }
+   .icon-index-arrow{
+	  display: inline-block;
+	  width: 7px;
+	  height: 12px; 
+   }
+   .mod-playlist{
+	  float:left;
+	  text-align:center; 
+	  width:1200px;
+	  height:412px;
+   }
+   
+   .mod-slide{
+	  overflow: hidden;
+      margin-bottom: 25px; 
+   }
+   .playlist-item{
+	  width: 4%;
+	  background: rgba(0,0,0,.8);
+	  font-size: 16px;
+	  padding-bottom: 0;
+	  overflow:hidden;
+   }
+   .playlist-list{
+	  margin-right:0px; 
+   } 
+   .playlist-cover{
+	  
+	  transform: scale(1);
+	  transition: all 0.75s;
+	 
+   }
+   .play-1:hover .playlist-cover{
+	 
+	  transform: scale(1.1); 
+   }
+   .play-1{
+	   cursor:pointer;
+    }
+   .play-btn{
+	  background:url(../QQmusic/play.png) no-repeat;
+	  width:70px;
+	  height:70px;
+	  position:absolute;
+	  opacity:0;
+	  transform: scale(0.7);
+	  transition: all 0.75s;
+	  left:120px;
+	  top:120px;
+   }
+   .playlist-cover{
+	  background: 
+   }
+   .playlist-item{
+	  float: left;
+	  width: 25%;
+	  padding-bottom: 44px;
+	  overflow: hidden; 
+   }
+   .play-1{
+	  position:relative;
+   }
+   .play-1:hover i{
+	   opacity:1;
+	   transform: scale(1);
+	}
+   .playlist-item:hover{
+	  filter:none;
+	  background: #31c27c;
+	  opacity:0.95;
+   }
+   .playlist-more{
+	  display: inline-block;
+	  
+	  
+	  transition-property: opacity;
+	  transition-duration: .3s; 
+	  bottom: 23px;
+	  right:0;
+	  width: 20px;
+      height: 20px;
+   }
+   .playlist-item:hover .playlist-more{
+	  opacity: 1;
+	  background:url(../QQmusic/search.png);
+	  background-position: -180px -100px;
+   }
+   .play-2{
+	   display:inline-block;
+	   margin-top:275px;
+	   margin-left:150px;
+	   width: 70px;
+	   height: 70px;
+	   transform: scale(.7);
+	   transition-property: opacity,transform;
+	   transition-duration: .5s;
+	   zoom: 1;
+	   background:url(../imgQQmusicplay.png);
+	   opacity:0;
+   }
+   .play-2:hover{
+	   opacity:1;
+   }
+   .playlist-titile{
+	   margin-top:25px; 
+   }
+   .playlist-titile-txt{
+	   color:#FFF;
+	   line-height: 22px;
+   }
+   .slide-item{
+	  display: inline-block;
+      
+   }
+   
+   .js-album{
+	  color:white; 
+	  font-weight:100;
+	  
+   }
+   
+   .js-singer{
+	  
+	  color: #999;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  height: 22px;
+	  
+	  line-height:22px;
+   }
+   .icon-txt{
+	  color: #333;
+	  font: 0/0 a; 
+   }
+   .js-singer:hover{
+      color: #999;
+   }
+   .js-album:hover{
+	  color:white;  
+   }
+   
+   .jctj-title,.phb-title{
+	   position: relative;
+	   width: 490px;
+	   height: 48px;
+	   padding-top: 80px;
+	   margin: 0 auto 50px;
+   }
+   .jctj-word,.phb-word{
+	   text-align:center;
+	   font-size:45px;
+	   font-weight: 400;
+	   margin-top:auto;
+   }
+   .phb-word{
+	   color:white;
+   }
+   .jctj-box{
+	   position:relative;
+	   
+   }
+   .jctj-pic{
+	   width:1200px;
+	   height:300px;
+	   position:absolute;
+   }
+   .jctj-pic-box{
+	   width:1200px;
+	   height:325px;
+	   overflow: hidden;
+       margin-bottom: 25px;
+	   line-height:325px;
+       position:relative;
+	   margin-left:78px;
+   }
+   .ul-pic{
+	   width: 100%;
+       height: 325px;
+	   position: relative;
+       font-size: 0;
+   }
+  
+   #img1{
+	   position:absolute;
+	   left:0px;
+	   width:608px;
+	   height:243px;
+	   top:25px;
+	   z-index:1;
+	   transition:all .5s;
+   }
+   #img3{
+	   width:750px;
+	   height:300px;
+	   position:absolute;
+	   left:225px;
+	   top:0px;
+	   z-index:3;
+	   transition:all .5s;
+   }
+   #img2{
+	   position:absolute;
+	   left:592px;
+	   width:608px;
+	   height:243px;
+	   top:25px;
+	   z-index:1;
+	   transition:all .5s;
+   }
+   .jctj-change{
+	   position:absolute;
+	   width:100px;
+	   height:100%;
+   }
+   .jctj-left{
+	   position:absolute;
+	   width:50px;
+	   height:100%;
+	   left:0;
+   }
+   .jctj-right{
+	   position:absolute;
+	   width:50px;
+	   height:100%;
+	   right:0;
+   }
+   
+   .phb-box{
+	   background:url(../QQmusic/phb-background.jpg);
+	   height: 830px;
+   }
+   .phb-all{
+	   position:relative;
+	   margin-right: 
+   }
+   .phb-box2{
+	   position:relative;
+	   width:1200px;
+	   margin:auto;
+   }
+   .phb-all{
+	   font-size: 15px;
+	   color: #fff; 
+	   position: absolute;
+	   right: 0px;
+	   top: 130px;
+   }
+   .phb-all:hover,.index-tab-all:hover{
+	   color:#2caf6f;
+   }
+   .phbx-box{
+	 
+	   height:567px;
+	   margin-top:15px;
+   }
+   li{
+	   float:left;
+	   list-style-type:none;
+	   position:relative;
+	   overflow:hidden;
+   }
+   .pop-song-list{
+	   width:300px;
+	   height:567px;
+	   
+	   
+   }
+   .top-list-title1{
+	  font-weight:100;
+
+	  width: 66px;
+	  height: 24px;
+      left:120px;
+	  top:60px;
+	  color:#FFF;
+	    position:absolute;
+   }
+   .top-list-title2{
+	  height: 36px;
+	  line-height: 1;
+	  font-size: 36px;
+	  color: #fff;
+	  font-weight: 400; 
+	  left:80px;
+	  top:100px;
+	    position:absolute;
+	
+	  
+   }
+   .ul-pop{
+	  bottom:70px ;
+	  position:absolute;
+   }
+   .pop-song{
+	  margin-left:60px;
+	  margin-top:15px;
+	  
+   }
+   a{
+	  color：white; 
+   }
+   .pop-song-num{
+	  color:white; 
+   }
+   .pop-songname{
+	  color:white;
+	  font-size:16px; 
+   }
+   .pop-singer{
+	  color:white; 
+	  opacity:0.5;
+	  font-size:13px;
+   }
+   .js-tab:hover{
+	  cursor:pointer;
+   }
+   .moder-action{
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  overflow: hidden;
+   }
+   .action{
+	  position: absolute;
+	  top: 0;
+	  width: 50%;
+	  height: 100%; 
+   }
+   .action-left, .btn-left{
+	  left:0; 
+   }
+   .action-right, .btn-right{
+	  right:0; 
+   }
+   .btn-right{
+	  transform: translateX(100%); 
+   }
+   .btn-left{
+	  transform: translateX(-100%); 
+   }
+   .btn0{
+	  position:absolute;
+	  top: 50%;
+	  margin-top: -54px;
+	  width: 72px;
+	  height: 108px;
+	  background: rgba(153,153,153,.4);
+      opacity: 0; 
+	  transition-property: opacity,transform;
+	  transition-duration: .5s;
+	  z-index: 2;
+	  display:block;
+   }
+   .slide-left{
+	  left: 28px;
+      background-position: -180px 0; 
+   }
+   .slide-right{
+	  right: 28px;
+      background-position: -160px 0;
+   }
+   .slide-action{
+	  position: absolute;
+	  top: 50%;
+	  margin-top: -9px;
+	  width: 11px;
+	  height: 18px; 
+	  background-image:url(../QQmusic/fanye.png);
+   }
+   .slide-left:hover{
+	  opacity:1; 
+   }
+   .mod-index:hover .btn-left{
+	  background:#CCC;
+	  left:72px;
+	  opacity:0.3;
+   }
+   .mod-index:hover .btn-right{
+	  background:#CCC;
+	  right:72px;
+	  opacity:0.3;
+   }
+   .action-left:hover .btn-left{
+	  background:#31c27c;
+	  right:72px;
+	  opacity:1;
+	  cursor:pointer;
+   }
+   .action-right:hover .btn-right{
+	  background:#31c27c;
+	  right:72px;
+	  opacity:1;
+	  cursor:pointer;
+   }
+   
+   
+   .jctj-action{
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  overflow: hidden;
+   }
+   .action2{
+	  position: absolute;
+	  top: 0;
+	  width: 50%;
+	  height: 100%; 
+   }
+   .action2-left, .btn2-left{
+	  left:0; 
+   }
+   .action2-right, .btn2-right{
+	  right:0; 
+   }
+   .btn2-right{
+	  transform: translateX(100%); 
+   }
+   .btn2-left{
+	  transform: translateX(-100%); 
+   }
+   .btn2{
+	  position: absolute;
+	  top: 65%;
+	  margin-top: -54px;
+	  width: 72px;
+	  height: 108px;
+	  background: rgba(153,153,153,.4);
+      opacity: 0; 
+	  transition-property: opacity,transform;
+	  transition-duration: .5s;
+	  z-index: 2;
+   }
+   .slide2-left{
+	  left: 28px;
+      background-position: -180px 0; 
+   }
+   .slide2-right{
+	  right: 28px;
+      background-position: -160px 0;
+   }
+   .slide2-action{
+	  position: absolute;
+	  top: 50%;
+	  margin-top: -9px;
+	  width: 11px;
+	  height: 18px; 
+	  background-image:url(../QQmusic/fanye.png);
+   }
+   .slide2-left:hover{
+	  opacity:1; 
+   }
+   .jctj-box:hover .btn2-left{
+	  background:#CCC;
+	  left:72px;
+	  opacity:0.8;
+   }
+   .jctj-box:hover .btn2-right{
+	  background:#CCC;
+	  right:72px;
+	  opacity:0.8;
+   }
+   .action2-left:hover .btn2-left{
+	  background:#31c27c;
+	  right:72px;
+	  opacity:1;
+	  cursor:pointer;
+   }
+   .action2-right:hover .btn2-right{
+	  background:#31c27c;
+	  right:72px;
+	  opacity:1;
+	  cursor:pointer;
+   }
+   .changeDiv{
+	   width:1200px;
+	   height:417px;
+	   position:absolute;
+   }
+   #one{
+	  display:block;
+	  transition:all 1s;
+  }
+  #two{
+	 
+	  transition:all 1s;
+  }
+  #three{
+	  
+	  transition:all 1s;
+  }
+  #A{
+	  display:block;
+	  transition:all 1s;
+  }
+  #B{
+	  display:none;
+	  transition:all 1s;
+  }
+  .xhx-box a{
+	  cursor:pointer;
+	  transition:all 1s;
+  }
+   
+   
+   
+   
+   
+   
+   
+      .return-top{
+	  bottom: 142px;
+      background-position: 0 -120px; 
+	  position: fixed;
+	  right: 40px;
+	  width: 50px;
+	  height: 50px;
+	  background-image:url(../QQmusic/top.png);
+	  z-index: 4;
+	  
+   }
+   .return-top:hover{
+	 
+	  background-position: -50px -120px; 
+	  opacity:1;
+   }
+   .return-feedback{
+	  bottom: 91px;
+      background-position: -100px -120px; 
+	  position: fixed;
+	  right: 40px;
+	  width: 50px;
+	  height: 50px;
+	  background-image:url(../QQmusic/top.png);
+	
+	  
+	  z-index: 4;
+	  
+	  
+   }
+   .return-feedback:hover{
+	   background:#31c27c;
+	}
+	.return-player:hover{
+	   background:#31c27c;
+	}
+	.icon-txt{
+
+	font: 0/0 a;
+	   
+   }
+    .return-feedback:hover .icon-txt{
+	  color: #fff;
+	  font: 0/0 a;
+	  font-size: 13px;
+	  padding: 10px;
+	  float: left;
+	  line-height: 18px;
+	 }
+	.return-player:hover .icon-txt{
+		 color: #fff;
+		font: 0/0 a;
+		font-size: 12px;
+		padding: 17px 7px;
+		float: left;
+		line-height: 18px;
+	}
+   .return-player{
+	  bottom: 40px;
+	  background-position: -150px -280px;
+	  position: fixed;
+	  right: 40px;
+	  width: 50px;
+	  height: 50px;
+	  background-image:url(../QQmusic/top.png);
+	  z-index: 4;
+	  
+   }
+   .pop-song-list_bgone{
+	   background:url(../QQmusic/phb-background2.jpg);
+	   width: 300px;
+	   height: 567px;
+	   position:absolute;
+	    transition: all 0.75s;
+	}
+	.pop-song-list_bgtwo{
+	   background:url(../QQmusic/phb-background2.jpg);
+	    background-position: 300px 0px;
+	   width: 300px;
+	   height: 567px;
+	   position:absolute;
+	    transition: all 0.75s;
+	}
+	.pop-song-list_bgthree{
+	   background:url(../QQmusic/phb-background2.jpg);
+	    background-position: 600px 0px;
+	   width: 300px;
+	   height: 567px;
+	   position:absolute;
+	    transition: all 0.75s;
+	}
+	.pop-song-list_bgfour{
+	   background:url(../QQmusic/phb-background2.jpg);
+	   background-position: 900px 0px;
+	   width: 300px;
+	   height: 567px;
+	   position:absolute;
+	   transition: all 0.75s;
+	  
+	}
+	.pop-song-list_key{
+		
+	}
+	.pop-song-list_line{
+	      position: absolute;
+		  left: 50%;
+		  top: 215px;
+		  margin-left: -31px;
+		  width: 62px;
+		  height: 2px;
+	      background: rgba(255,255,255,.3);
+		  opacity:1;
+	}
+	.pop-song-list_playkey{
+			background:url(../QQmusic/play.png);
+			position: absolute;
+			width: 70px;
+			height: 70px;
+			transform: scale(0.7);
+			transition: all 0.5s;
+			top: 180px;
+			left:38.5%;
+			opacity:0;
+	}
+	.pop-song-list:hover .pop-song-list_line{
+		   opacity:0;
+	}
+	.pop-song-list:hover .pop-song-list_playkey{
+		   opacity:1;
+		   transform: scale(1);
+	}
+	.pop-song-list:hover  .pop-song-list_bgfour{
+		  transform: scale(1.1);
+	}
+	.pop-song-list:hover  .pop-song-list_bgthree{
+		  transform: scale(1.1);
+	}
+	.pop-song-list:hover  .pop-song-list_bgtwo{
+		  transform: scale(1.1);
+	}
+	
+	.pop-song-list:hover  .pop-song-list_bgone{
+		  transform: scale(1.1);
+	}
